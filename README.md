@@ -1,6 +1,5 @@
 # C++ basics
 
-
 ## Data types or literals
 >always type inside int main
 
