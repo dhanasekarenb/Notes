@@ -5,7 +5,7 @@
 
 ### Char
 
-`char initial = 'B';`
+- `char initial = 'B';`
 - single quotation mark
 - always end with semi coloan
 - **single letters**
@@ -24,28 +24,36 @@
 - int do not want any quotations
 - always end with semi coloan
 - integers 32 bit **(whole, octal, hex)**
-- - -
+
+### Folat point
+
 - `double mark = 72.5 or 63.23 ;`
 - double do not want any quotations
 - always end with semi coloan
 - double 64 bit **(decimal)**
-- - - 
+ 
+### Booliean
+
 - `bool studying = true or false;`
 -  do not want any quotations
 - always end with semi coloan
 - boolean constants **1 and 0** or  rue or false
-- - - 
+
+### Printing
+
 - `cout << "i am typing" << endl;`
 - double quotation mark
 - always end with semi coloan
 - this is **constant** without using any other datas 
-- - -
+
+### Pointer
+
 - `cout << &name << endl;`
 - the program the shows the location of the name in ram
 - we call it pointer
 - & is the comment to show the location
 - if we  use * it go the location and give the output 
-- - -
+
 ## String
 
 > name : dhanasekaren
@@ -55,32 +63,43 @@
 - `\\` : backslash 
 - `\'` : single quote
 - `\"` : double quote
-- - -	
+
+### Length
+
 - `cout << name.length << endl;`
 - output :11
 - **total number** of characters inside a string
 - before the null char `\0`
-- - -
+
+### Index pos
+
 - `cout << name[2] << endl;`
 - output : a
 - always start from zero
 - it gives the **exact letter** when we give the index value
 - change character like
-- - -
+
+### Change index pos
+
 -  `name[0] = 'G';`
 - `cout << name << endl`
 - output : Ghanasekaren
 - to **change a char in string**
-- - -
+
+### Find index pos using char
+
 - `cout << name.find("s",0);`
 - output : 5
 - to find the **position of the index** 
-- - -
+
+### Start to end
+
 - `cout << name.substr(5,7) << endl`
 - output : sekaren
 - we tell index to **start to end**
-- - -
+
 ## Numbers and maths
+
 > For math use `include <cmath>`
 
 - **arithmetic** it uses BODMAS or PEMDAS rule
@@ -89,64 +108,90 @@
 - `* mul` , ex : `cout << 4 * 2 << endl;` output = 8
 - `/ div` , ex : `cout << 4 / 2 << endl;` output = 2
 - `% rem` , ex : `cout << 5 / 2 << endl;` output = 1 
-- - -
+
+### Default add 1
+
 - `++` adds 1
 - `int num = 4;`
 - `num++;` 
 - `cout << num << endl;` output = 5
-- - -	
+
+### Default sub 1
+
 - `--` subs 1
 - `int num = 4;`
 - `num -- ;` 
 - `cout << num << endl;` output = 3 
-- - -
+
+### Add
+
 - `+= 5` adds any number we give
 - `int num = 4;`
 - `num += 5 ;` 
 - `cout << num << endl;` output = 9 
-- - -
+ 
+### Sub
+
 - `-= 2` adds any number we give
 - `int num = 4;`
 - `num += 2 ;` 
 - `cout << num << endl;` output = 2 
-- - -
+
+### Mult and Divi
+
 - same thing for `*=` and `/=`
 - output = 8
 - output = 2
-- - - 
+
+### Power
+
 - `cout << pow (4, 2) << endl;`
 - pow is power of ex : $4^2$
 - output : 16
-- - -
+
+### Square root
+
 - `cout << sqrt(4) << endl;` 
 - it is opp of pow it gives the squre root of 4
 - output : 2
-- - -
+
+### Round value using >5 or <5
+
 - `cout << round(5.68656) << endl;`
 - it rounds the value 
 - output : 6 
 - if we give (5.4), output : 5
-- - -
+
+### Round value to highest
+
 - `cout << ceil(5.4123123) << endl;`
 - automatically round the number to the next highest number
 - output : 6
-- - -
+
+### Round value to lowest
+
 - `cout << floor(5.9999) << endl;`
 - opp of **ceil** number
 - output : 5
-- - -
+
+### To find bigger value
+
 - `cout << fmax(5, 11) << endl;`
 - its tell which number is bigger
 - output : 11
-- - -
+
+### To find lowest value
+
 - `cout << fmin(5, 11) << endl;` 
 - its tell the smallest number
 - output : 5
-- - -
+
 ## Input
 
 > for output we use cout 
 > for input we use cin
+
+### How get input from user
 
 - sample code for get input (for words)
 - cin >> name ;
@@ -156,7 +201,9 @@ cout << "what is your name : ";
 cin >> name ;
 cout << "hi " << name << " i am computer";
 ```
----
+
+### Get input from user 
+
 - sample code for get input (sentence, words, letters and numbers)
 - getline(cin,anyname)
 ```
@@ -165,8 +212,9 @@ cout << "what is your name : ";
 getline(cin,name);
 cout << "hi " << name << " i am computer";
 ```
----
+
 ## operators
+
 - **switch operator** get the input and switch 
 ```
 switch (expression)
@@ -179,10 +227,11 @@ default:
 break;
 }
 ```
----
+
 ## Arrays
+
 > we can use all data types 
-> varible is one data 
+> varible is like (only integer or only char) 
 > array is set for list more data
 
 - arrays example
@@ -201,8 +250,8 @@ cout << names[0][1]<< endl;
 - we use another list
 - list[][] like this 
 
----
 ## Functions
+
 > A set of instructions
 > int main () is also a function
 
@@ -225,8 +274,9 @@ return 0;
 - here void is a function 
 - we can call function many times
 - always create a function above the main function
----
+
 ## return statement
+
 - example for return
 ```
 #include <iostream>
@@ -245,7 +295,7 @@ return 0;
 }
 ```
 - to return the value to the orginal
----
+
 ## if state ment
 
 - user name and password ex for if statement
@@ -276,7 +326,6 @@ return 0;
 }
 ```
 - if (), else if(), else are various types to use
-- - -
 
 ## while loop 
 
@@ -292,8 +341,9 @@ age ++;
 ```
 - output : 1,2,3,4,.....,17
 - if loop god is equal program will stop
----
+
 ## do while loop
+
 - do while loop ex:
 ```
 int age = 18;
@@ -306,8 +356,8 @@ age ++;
 - output : 18
 - if loop god is equal still do loop will run 1 time
 
----
-##  for loops and nested for loops
+##  for loops
+
 - for loops ex :
 ```
 for(i=1;i<=5;i++){
@@ -316,17 +366,19 @@ cout<<i<<endl;
 ```
 - for is also like while loop but it easier compare to while loop
 - we can give a list to for check
-- nested for loop
+ 
+## nested for loop
+
 - it basically for 2d arrays or more
 - its is same as for loops
 - but add 1 more for loop
 - for the second list
----
+
 ## class
 - we can create our own class by using class
 - personal , private
 - class make our job simple and easier
----
+
 ## inheritance
 - we can call a function form 1 class to another
 - we call it super class and sub class
