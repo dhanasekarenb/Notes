@@ -4,17 +4,22 @@
 >always type inside int main
 
 ### Char
+
 `char initial = 'B';`
 - single quotation mark
 - always end with semi coloan
 - **single letters**
-- 
+
+### String
+
 - `string name = "dhanasekaren" or "i am dhanasekaren";`
 - varible are strings
 - double quotation mark
 - always end with semi coloan 
 - **words or sentence** 
-___
+
+### Integers
+
 - `int age = 1 or 2 or 3;`
 - int do not want any quotations
 - always end with semi coloan
