@@ -8,7 +8,11 @@ ___
 - single quotation mark
 - always end with semi coloan
 - **single letters**
-___
+
+
+
+
+
 - `string name = "dhanasekaren" or "i am dhanasekaren";`
 - varible are strings
 - double quotation mark
