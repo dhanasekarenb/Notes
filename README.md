@@ -364,13 +364,13 @@ age ++;
 
 ##  for loops
 
-- for loops ex :
-```
-for(i=1;i<=5;i++)
- {
-  cout<<i<<endl;
- }
-```
+- for loops ex 
+ ```
+ for(i=1;i<=5;i++)
+  {
+   cout<<i<<endl;
+  }
+ ```
 
 - for is also like while loop but it easier compare to while loop
 - we can give a list to for check
