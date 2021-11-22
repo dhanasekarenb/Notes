@@ -216,17 +216,18 @@ cout << "hi " << name << " i am computer";
 ## operators
 
 - **switch operator** get the input and switch 
-```
-switch (expression)
-{
-case /* constant-expression */:
-/* code */
-break;
+ 
+	```
+	 switch (expression)
+	 {
+	 case /* constant-expression */:
+	 /* code */
+	 break;
 
-default:
-break;
-}
-```
+	 default:
+	 break;
+	 }
+	```
 
 ## Arrays
 
@@ -235,24 +236,19 @@ break;
 
 - arrays example
  
-```
-{
-string names[] = {"dhanasekaren", "mohanen", "bala", "karthi", "rambai", "vijay", "dhanush"};
-cout << names[0]<< endl;
-}
-```
+	```
+	 string names[] = {"dhanasekaren", "mohanen", "bala", "karthi", "rambai", "vijay", "dhanush"};
+	 cout << names[0]<< endl;
+	```
 
 - now we can take what name we want by using index value
 - and same for char, int, float, double and strings
 - **2d arrays** 
 - same like arrays
- 
-```
-{
-string names[][] = ({dhana,saker},{mohan,bala});
-cout << names[0][1]<< endl;
-}
-```
+		```
+		 string names[][] = {{dhana,saker},{mohan,bala}};
+		 cout << names[0][1]<< endl;
+		```
 - we use another list
 - list[][] like this 
 
@@ -262,21 +258,21 @@ cout << names[0][1]<< endl;
 > int main () is also a function
 
 - example for fuction
-```
-#include <iostream>
-using namespace std;
+	```
+	#include <iostream>
+	using namespace std;
 
-void names(int num)
-{
-string name[] = {"dhanasekaren", "mohanen", "bala", "karthi", "rambai", "vijay", "dhanush"};
-cout << name[num] << endl;
-}
-int main()
-{
-names(3)
-return 0;
-}
-```
+	void names(int num)
+	{
+	 string name[] = {"dhanasekaren", "mohanen", "bala", "karthi", "rambai", "vijay", "dhanush"};
+	 cout << name[num] << endl;
+	}
+	int main()
+	{
+	 names(3)
+	 return 0;
+	}
+	```
 - here void is a function 
 - we can call function many times
 - always create a function above the main function
@@ -284,93 +280,92 @@ return 0;
 ## return statement
 
 - example for return
-```
-#include <iostream>
-#include <cmath>
-using namespace std;
+	```
+	#include <iostream>
+	#include <cmath>
+	using namespace std;
 
-int number (int num)
-{
-num = num + num + num;
-return num;
-}
-int main()
-{
-cout << number(2) <<endl;
-return 0;
-}
-```
+	int number (int num)
+	{
+	 num = num + num + num;
+	 return num;
+	}
+	int main()
+	{
+	 cout << number(2) <<endl;
+	 return 0;
+	}
+	```
 - to return the value to the orginal
 
 ## if state ment
 
 - user name and password ex for if statement
-```
-#include <iostream>
-using namespace std;
-int main()
-{
-string myname = "dhanasekaren";
-string password = "pingu";
-string name;
-string pass;
-cout << "Enter your name : " ;
-cin >> name ;
-cout << "Enter your password : ";
-cin >> pass ;
-if (myname == name && password == pass)
-{
-cout << "Hello " << myname << endl;
-cout << "Welcome to home" << endl;
-}
-else
-{
-(myname != name) && (password != pass);
-cout << "Wrong user name or password" << endl;
-}
-return 0;
-}
-```
+	```
+	#include <iostream>
+	using namespace std;
+	int main()
+	{
+	 string myname = "dhanasekaren";
+	 string password = "pingu";
+	 string name;
+	 string pass;
+	 cout << "Enter your name : " ;
+	 cin >> name ;
+	 cout << "Enter your password : ";
+	 cin >> pass ;
+	 if (myname == name && password == pass)
+	 {
+	 cout << "Hello " << myname << endl;
+	 cout << "Welcome to home" << endl;
+	 }
+	 else
+	 {
+	 (myname != name) && (password != pass);
+	 cout << "Wrong user name or password" << endl;
+	 }
+	 return 0;
+	}
+	```
 - if (), else if(), else are various types to use
 
 ## while loop 
 
 - while loop ex :
-```
-int age = 1;
-int myage = 17;
-while(age <= myage)
-{
-cout << age << endl;
-age ++;
-}
-```
+	```
+	 int age = 1;
+	 int myage = 17;
+	 while(age <= myage)
+	 {
+	 cout << age << endl;
+	 age ++;
+	 }
+	```
 - output : 1,2,3,4,.....,17
 - if loop god is equal program will stop
 
 ## do while loop
 
 - do while loop ex:
-```
-int age = 18;
-int myage = 17;
-do{
-cout << age << endl;
-age ++;
-}while(age <= myage);
-```
+	```
+	int age = 18;
+	 int myage = 17;
+	 do{
+	 cout << age << endl;
+	 age ++;
+	 }while(age <= myage);
+	```
 - output : 18
 - if loop god is equal still do loop will run 1 time
 
 ##  for loops
 
 - for loops ex 
- ```
- for(i=1;i<=5;i++)
-  {
-   cout<<i<<endl;
-  }
- ```
+	```
+	for(i=1;i<=5;i++){
+	cout<<i<<endl;
+	}
+	```
 
 - for is also like while loop but it easier compare to while loop
 - we can give a list to for check
