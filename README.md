@@ -375,7 +375,7 @@ cout<<i<<endl;
 
 - for is also like while loop but it easier compare to while loop
 - we can give a list to for check
- 
+
 ## nested for loop
 
 - it basically for 2d arrays or more
