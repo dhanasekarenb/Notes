@@ -3,15 +3,11 @@
 ## Data types or literals
 >always type inside int main
 
-- `char initial = 'B';`
+###`char initial = 'B';`
 - single quotation mark
 - always end with semi coloan
 - **single letters**
-
-
-
-
-
+- 
 - `string name = "dhanasekaren" or "i am dhanasekaren";`
 - varible are strings
 - double quotation mark
