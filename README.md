@@ -246,7 +246,7 @@ cout << "hi " << name << " i am computer";
 - **2d arrays** 
 - same like arrays
 		```
-		 string names[][] = {{dhana,saker},{mohan,bala}};
+		 string names[][] = {dhana,saker},{mohan,bala};
 		 cout << names[0][1]<< endl;
 		```
 - we use another list
