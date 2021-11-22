@@ -3,7 +3,8 @@
 ## Data types or literals
 >always type inside int main
 
-###`char initial = 'B';`
+### Char
+`char initial = 'B';`
 - single quotation mark
 - always end with semi coloan
 - **single letters**
