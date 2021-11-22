@@ -388,9 +388,3 @@ cout << "hi " << name << " i am computer";
 - super class is the one which give function to other class
 - sub class is we can take fucntion from other class if its is public
 
-```
-hello
-pyhon
-dhana
-```
-
