@@ -232,20 +232,26 @@ break;
 
 > we can use all data types 
 > varible is like (only integer or only char) 
-> array is set for list more data
 
 - arrays example
+ 
 ```
+{
 string names[] = {"dhanasekaren", "mohanen", "bala", "karthi", "rambai", "vijay", "dhanush"};
 cout << names[0]<< endl;
+}
 ```
+
 - now we can take what name we want by using index value
 - and same for char, int, float, double and strings
 - **2d arrays** 
 - same like arrays
+ 
 ```
+{
 string names[][] = ({dhana,saker},{mohan,bala});
 cout << names[0][1]<< endl;
+}
 ```
 - we use another list
 - list[][] like this 
