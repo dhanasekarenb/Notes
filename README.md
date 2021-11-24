@@ -37,7 +37,7 @@
 - `bool studying = true or false;`
 -  do not want any quotations
 - always end with semi coloan
-- boolean constants **1 and 0** or  rue or false
+- boolean constants **1 and 0** or  true or false
 
 ### Printing
 
